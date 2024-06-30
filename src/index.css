@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #f2f; /* Updated background color */
   margin: 0;
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +35,7 @@ section {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #333; /* Updated link color */
 }
 
 li {
@@ -59,6 +59,7 @@ button {
   width: fit-content;
   text-align: center;
   margin: 20px auto 30px !important;
+  color: #333; /* Updated heading color */
 }
 
 .images-container {
@@ -70,7 +71,7 @@ button {
 .homeSlide {
   display: flex;
   justify-content: center;
-  background-color: #f6f9fc;
+  background-color: #cce0ff; /* Updated background color to blue */
   padding-bottom: 0 !important;
 }
 
@@ -96,17 +97,18 @@ button {
 .not-found {
   margin: 40px auto 20px;
   width: fit-content;
+  color: #555; /* Updated text color */
 }
 
 /*   ---Cart Page---   */
 
 .cart-items {
-  background: #f6f9fc;
+  background: #cce0ff; /* Updated background color to blue */
   height: auto;
 }
 
 .cart-items .cart-total {
-  background-color: white;
+  background-color: #a6c6e6; /* Updated background color to lighter blue */
   padding: 20px;
   height: 150px;
   margin-bottom: 30px;
@@ -114,7 +116,7 @@ button {
 
 .cart-list {
   position: relative;
-  background: white;
+  background: #cce0ff; /* Updated background color to blue */
   margin-bottom: 30px;
   padding: 20px;
 }
@@ -154,12 +156,12 @@ button {
   font-size: 15px;
   font-weight: 400;
   margin-top: 50px;
-  color: grey;
+  color: #888; /* Updated text color */
   width: fit-content;
 }
 
 .cart-items h4 span {
-  color: #0f3460;
+  color: #0f3460; /* Updated accent color */
   margin-left: 20px;
   font-weight: 500;
 }
@@ -187,22 +189,23 @@ button {
 .incCart {
   background: none;
   border: 1px solid rgb(3 0 71 / 9%);
-  color: #0f3460;
+  color: #0f3460; 
 }
 
 .desCart {
-  background: #f6f9fc;
+  background: hsl(213, 4%, 52%);
 }
 
 .cart-total h4 {
   font-size: 15px;
   font-weight: 400;
+  color: #5695; 
 }
 
 .cart-total h3 {
   font-size: 20px;
   font-weight: 500;
-  color: #0f3460;
+  color: #0f3460; 
 }
 
 .cart-total h2 {
@@ -215,7 +218,7 @@ button {
 }
 
 .no-items {
-  color: #0f3460;
+  color: #0f3460; 
   font-size: 18px;
   margin-top: 30px;
   height: 130px;
@@ -229,7 +232,7 @@ button.delete {
   border: none;
   outline: none;
   background-color: transparent;
-  color: black;
+  color: #333; 
 }
 
 button.delete ion-icon {
